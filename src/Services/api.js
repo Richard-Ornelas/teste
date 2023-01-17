@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './utils';
 
 export const api = axios.create({
-  baseURL: 'http://richardnicolas.pythonanywhere.com/',
+  baseURL: 'https://richardnicolas.pythonanywhere.com/',
 });
 
 api.interceptors.request.use(function (config) {
